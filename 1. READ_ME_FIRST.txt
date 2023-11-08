@@ -1,0 +1,12 @@
+1-This folder contains 2python runnable files.
+-> augmentation
+-> traverse_and_make_better
+
+2-augmentation file takes dataset from the set directory and places it in the "train_and_test_dataset_own_4x" folder by adding images which are tilted by 90 degrees and 180 degrees.
+
+3-Traverse_and_make_better file creates a filter in image which takes canges every pixel value
+Let us say we have image(RGB) coordinate of (i,j) than it takes darkest tone from (i,j-1) (i,j+1),(i-1,j),(i+1,j). The program places the new modified images in the dataset "train_test_dataset_own" folder from the set directory
+
+
+
+ 
